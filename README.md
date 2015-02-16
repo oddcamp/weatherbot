@@ -3,7 +3,7 @@
 ![weatherbot](https://raw.githubusercontent.com/kollegorna/weatherbot/master/assets/bot.jpg)
 
 A Slack bot that fetches weather from predefined locations and posts it to our slack channel.
-It uses [forecast.io API](http://forecast.io/) API and [Slack API](https://api.slack.com/).
+It uses [forecast.io API](http://forecast.io/) and [Slack API](https://api.slack.com/).
 
 This is what it looks like in Slack:
 ![screenshot](https://raw.githubusercontent.com/kollegorna/weatherbot/master/assets/slack-screenshot.png)
