@@ -1,21 +1,10 @@
-var Slack = require('slack-node');
-apiToken = process.env.SLACK_TOKEN;
-slack = new Slack(apiToken);
+if (!process.argv[2]) {
+	console.error("No channel specified! \nExample: node app.js general")
+	process.exit();
+}
 
-var channel = process.argv[2] ? "#"+process.argv[2] : '#kollegorna-ivan';
-
-console.log(channel);
-
-var postMessage = function (message) {
-	var icon_url = 'https://cdn.rawgit.com/kollegorna/weatherbot/master/bot.jpg';
-	slack.api(
-		'chat.postMessage',
-		{ text: message, channel: channel, username: 'weatherbot', icon_url: icon_url },
-		function () {
-			console.log("Message sent to " + channel + ": " + message);
-		}
-	);
+var Weatherbot = require('./weatherbot');
+var options = {
+	channel: "#"+process.argv[2]
 };
-
-var weather = require('./weather');
-weather.postWeatherMessages(postMessage);
+new Weatherbot(options).postWeatherMessages();
