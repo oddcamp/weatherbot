@@ -45,6 +45,11 @@ var Weatherbot = module.exports = function(options) {
 				people: ["Joakim"]
 			},
 			{
+				name: "Son",
+				coords: [59.5216, 10.6884],
+				people: ["Joakim"]
+			},
+			{
 				name: "Jönköping",
 				coords: [57.7828, 14.1606],
 				people: ["Urban"]
