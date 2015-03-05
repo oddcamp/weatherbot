@@ -17,7 +17,7 @@ var forecast = new Forecast({
  * Constructor
  */
 var Weatherbot = module.exports = function(options) {
-	this.iconUrl = 'https://cdn.rawgit.com/kollegorna/weatherbot/master/assets/bot.jpg';
+	this.iconUrl = 'https://cdn.rawgit.com/kollegorna/weatherbot/master/assets/bot.png';
 	this.channel = options.channel;
 
 	if (options.locations) {
