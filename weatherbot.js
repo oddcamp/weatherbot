@@ -53,6 +53,11 @@ var Weatherbot = module.exports = function(options) {
 				name: "Jönköping",
 				coords: [57.7828, 14.1606],
 				people: ["Urban"]
+			},
+			{
+				name: "Santo Domingo",
+				coords: [18.4736,-69.9482],
+				people: ["Raymall"]
 			}
 		];
 	}
