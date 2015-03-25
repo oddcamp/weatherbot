@@ -76,7 +76,8 @@ Weatherbot.prototype.postWeatherMessages = function () {
 		  var icon = currentWeather.icon; // 'clear-day'
 
 		  var message = "Hello " + location.people.join(", ") + ". It's currently " +
-		  	currentWeather.summary + ", " + Math.round(currentWeather.temperature) + "°C in " + location.name;
+		  	currentWeather.summary + ", " + Math.round(currentWeather.temperature) +
+		  	"°C (feels like " + Math.round(currentWeather.apparentTemperature) + " °C) in " + location.name;
 
 			self.postMessage(message);
 		});
