@@ -48,7 +48,13 @@ var Weatherbot = module.exports = function(options) {
 				name: "Santo Domingo",
 				coords: [18.4736,-69.9482],
 				people: ["Raymall"]
+			},
+			{
+				name: "Coimbra",
+				coords: [40.2254,-8.4522],
+				people: ["Eduardo"]
 			}
+			
 		];
 	}
 }
