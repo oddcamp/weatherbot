@@ -32,7 +32,12 @@ var Weatherbot = module.exports = function(options) {
 			{
 				name: "Stockholm",
 				coords: [59.3294, 18.0686],
-				people: ["Henrik", "Per", "Samuel", "Filippos", "Dennis"]
+				people: ["Henrik", "Per", "Filippos", "Dennis"]
+			},
+			{
+				name: "Seoul",
+				coords: [37.5667, 126.9781],
+				people: ["Samuel"]
 			},
 			{
 				name: "Santo Domingo",
@@ -44,7 +49,6 @@ var Weatherbot = module.exports = function(options) {
 				coords: [40.2254,-8.4522],
 				people: ["Eduardo"]
 			}
-			
 		];
 	}
 }
