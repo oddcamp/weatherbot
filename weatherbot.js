@@ -13,6 +13,19 @@ var forecast = new Forecast({
   }
 });
 
+var weatherIcons = {
+	"clear-day" : ":sunny:",
+	"clear-night" : ":full_moon_with_face:",
+	"rain" : ":umbrella:",
+	"snow" : ":snowflake:",
+	"sleet" : ":snowflake:",
+	"wind" : ":windchime:",
+	"fog" : ":foggy:",
+	"cloudy" : ":cloud:",
+	"partly-cloudy-day" : ":cloud:",
+	"partly-cloudy-night" : ":cloud:"
+};
+
 /**
  * Constructor
  */
@@ -53,6 +66,11 @@ var Weatherbot = module.exports = function(options) {
 				name: "Helsingborg",
 				coords: [56.03856,12.692839],
 				people: ["Dennis"]
+			},
+			{
+				name: "Clayton",
+				coords: [38.6426,-90.3237],
+				people: ["Patrick"]
 			}
 		];
 	}
@@ -68,10 +86,10 @@ Weatherbot.prototype.postWeatherMessages = function () {
 		  if (err) return console.dir(err);
 
 		  var currentWeather = weather.currently;
-		  var icon = currentWeather.icon; // 'clear-day'
+		  var icon = weatherIcons[currentWeather.icon] ? weatherIcons[currentWeather.icon] + ' ' : ''; // 'clear-day'
 
 		  var message = "Hello " + location.people.join(", ") + ". It's currently " +
-		  	currentWeather.summary + ", " + Math.round(currentWeather.temperature) +
+		  	currentWeather.summary + ", " + icon + Math.round(currentWeather.temperature) +
 		  	"°C (feels like " + Math.round(currentWeather.apparentTemperature) + " °C) in " + location.name;
 
 			self.postMessage(message);
