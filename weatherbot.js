@@ -39,38 +39,38 @@ var Weatherbot = module.exports = function(options) {
 		this.locations = [
 			{
 				name: "Trnava",
-				coords: [48.3775, 17.5883],
+				coords: [48.3775,17.5883],
 				people: ["Ivan"]
 			},
 			{
 				name: "Stockholm",
-				coords: [59.3294, 18.0686],
-				people: ["Henrik", "Per"]
+				coords: [59.3294,18.0686],
+				people: ["Henrik", "Per", "Filippos"]
 			},
 			{
-				name: "Seoul",
-				coords: [37.5667, 126.9781],
-				people: ["Samuel"]
-			},
-			{
-				name: "Santo Domingo",
-				coords: [18.4736,-69.9482],
+				name: "Punta Cana",
+				coords: [18.6484,-68.5988],
 				people: ["Raymall"]
 			},
 			{
-				name: "Coimbra",
-				coords: [40.2254,-8.4522],
+				name: "Braga",
+				coords: [41.5472,-8.4464],
 				people: ["Eduardo"]
 			},
       {
-				name: "Helsingborg",
-				coords: [56.03856,12.692839],
+				name: "Falkenberg",
+				coords: [56.8984,12.4605],
 				people: ["Dennis"]
 			},
-			{
-				name: "Clayton",
-				coords: [38.6426,-90.3237],
-				people: ["Patrick"]
+      {
+				name: "Plovdiv",
+				coords: [42.1440,24.6708],
+				people: ["Nikolay"]
+			},
+      {
+				name: "Klaipėda",
+				coords: [55.7052,21.0178],
+				people: ["Osvaldas"]
 			}
 		];
 	}
