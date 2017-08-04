@@ -19,7 +19,7 @@ var weatherIcons = {
 	"rain" : ":umbrella:",
 	"snow" : ":snowflake:",
 	"sleet" : ":snowflake:",
-	"wind" : ":windchime:",
+	"wind" : ":wind_blowing_face:",
 	"fog" : ":foggy:",
 	"cloudy" : ":cloud:",
 	"partly-cloudy-day" : ":cloud:",
