@@ -71,6 +71,11 @@ var Weatherbot = module.exports = function(options) {
 				name: "Klaipėda",
 				coords: [55.7052,21.0178],
 				people: ["Osvaldas"]
+			},
+      {
+				name: "Antibes",
+				coords: [43.5822,7.0698],
+				people: ["there"]
 			}
 		];
 	}
