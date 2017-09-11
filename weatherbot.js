@@ -73,6 +73,11 @@ var Weatherbot = module.exports = function(options) {
 				people: ["Osvaldas"]
 			},
       {
+				name: "Lisbon",
+				coords: [38.7436,-9.1952],
+				people: ["Ricardo"]
+			},
+      {
 				name: "Antibes",
 				coords: [43.5822,7.0698],
 				people: ["there"]
