@@ -55,7 +55,12 @@ var Weatherbot = module.exports = function(options) {
 			{
 				name: "Braga",
 				coords: [41.5472,-8.4464],
-				people: ["Eduardo", "Dennis"]
+				people: ["Eduardo"]
+			},
+      {
+				name: "Prague",
+				coords: [50.05980,14.3255],
+				people: ["Dennis"]
 			},
       {
 				name: "Plovdiv",
