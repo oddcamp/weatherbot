@@ -54,8 +54,8 @@ var Weatherbot = (module.exports = function(options) {
         people: ["Eduardo"]
       },
       {
-        name: "Helsingborg",
-        coords: [56.03856, 12.692839],
+        name: "Seoul",
+        coords: [37.5650, 126.8494],
         people: ["Dennis"]
       },
       {
@@ -82,6 +82,11 @@ var Weatherbot = (module.exports = function(options) {
         name: "Canggu",
         coords: [-8.650618, 115.1364993],
         people: ["Ricardo"]
+      },
+      {
+        name: "Nynäshamn",
+        coords: [58.9656903,17.6048422],
+        people: ["Joakim"]
       }
     ];
   }
