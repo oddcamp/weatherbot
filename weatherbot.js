@@ -74,14 +74,19 @@ var Weatherbot = (module.exports = function(options) {
         people: ["Samuel"]
       },
       {
-        name: "Canggu",
-        coords: [-8.650618, 115.1364993],
-        people: ["Ricardo"]
-      },
-      {
         name: "Nynäshamn",
         coords: [58.9656903,17.6048422],
         people: ["Joakim"]
+      },
+      {
+        name: "Porto",
+        coords: [41.157944,-8.629105],
+        people: ["Diana"]
+      },
+      {
+        name: "Lisbon",
+        coords: [38.722252,-9.139337],
+        people: ["Joana"]
       }
     ];
   }
