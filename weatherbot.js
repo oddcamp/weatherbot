@@ -79,8 +79,8 @@ var Weatherbot = (module.exports = function(options) {
         people: ["Annemieke"]
       },
       {
-        name: "Manila",
-        coords: [14.5964957,120.9445404],
+        name: "Antipolo City",
+        coords: [14.564150, 121.182820],
         people: ["Joakim"]
       },
       {
