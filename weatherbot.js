@@ -31,7 +31,7 @@ var weatherIcons = {
  */
 var Weatherbot = (module.exports = function(options) {
   this.iconUrl =
-    "https://cdn.rawgit.com/kollegorna/weatherbot/master/assets/bot.png";
+    "https://cdn.jsdelivr.net/gh/oddcamp/weatherbot@master/assets/bot.png";
   this.channel = options.channel;
 
   if (options.locations) {
