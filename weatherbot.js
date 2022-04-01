@@ -79,11 +79,6 @@ var Weatherbot = (module.exports = function(options) {
         people: ["Annemieke"]
       },
       {
-        name: "Zagreb",
-        coords: [45.8401746,15.8942923],
-        people: ["Lovro"]
-      },
-      {
         name: "Manila",
         coords: [14.5964957,120.9445404],
         people: ["Joakim"]
@@ -97,10 +92,6 @@ var Weatherbot = (module.exports = function(options) {
         name: "Lisbon",
         coords: [38.722252,-9.139337],
         people: ["Joana"]
-      },{
-        name: "Firgas",
-        coords: [28.1051928,-15.5664165],
-        people: ["Javier"]
       }
     ];
   }
